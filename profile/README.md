@@ -1,6 +1,6 @@
 # Peryton Space
 
-![PerytonSpace_Logo-removebg-preview](https://github.com/PerytonSpace/.github/assets/73143248/a1273013-9c5f-4e1e-b1d8-28c360987e75)
+![PerytonSpace_Logo-removebg-preview](./assets/img/PerytonSpace_White.png)
 
 
-About us
+## About us
