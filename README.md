@@ -1,3 +1,0 @@
-# Peryton Space
-
-About us
