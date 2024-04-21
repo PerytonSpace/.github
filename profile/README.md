@@ -1,6 +1,6 @@
 # Peryton Space
 
-<img src="https://github.com/PerytonSpace/.github/blob/main/assets/img/PerytonSpace_White.png" width = 40% height = 40%>
+<img src="https://github.com/PerytonSpace/.github/blob/main/assets/img/PerytonSpaceLogo.png" width = 40% height = 40%>
 
 ## About us
 Peryton Space is a student-led rocketry and satellite team at the University of Surrey. We are passionate about space exploration and education, and we are committed to developing innovative technologies and inspiring the next generation of aerospace engineers or space engineers who will work in the space sector.
