@@ -1,0 +1,50 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: file
+    attributes:
+      label: File [REQUIRED]
+      description: What is the file with the bug? (include full path)
+      placeholder: dev/testcode.ino
+    validations:
+      required: true
+  - type: input
+    id: specific
+    attributes:
+      label: Affected Line/Section [REQUIRED]
+      description: Where in the file has the bug?
+      placeholder: line 25, or function testFunction()
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: Expected Outcome [REQUIRED]
+      description: What should happen with the code?
+      placeholder: The function TestFunc should do...
+    validations:
+      required: true
+  - type: input
+    id: problem
+    attributes:
+      label: Issue [REQUIRED]
+      description: What is the issue with the affected code? (Any error messages would be appreciated)
+      placeholder: The code has the error "int people = 293049858920384839904; // Error overflow"
+    validations:
+      required: true
+  - type: input
+    id: attemptedsolution
+    attributes:
+      label: Attempted Solution [OPTIONAL]
+      description: Have you tried to fix the error? If so, what did you do?
+      placeholder: I fixed the error by updating Python etc...
+    validations:
+      required: false
+    
