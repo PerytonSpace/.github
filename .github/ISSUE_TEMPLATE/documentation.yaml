@@ -1,0 +1,25 @@
+name: Documentation
+description: Request documentation.
+title: "[DOCS:]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this documentation request!
+  - type: input
+    id: file
+    attributes:
+      label: Topic [REQUIRED]
+      description: What are you trying to document
+      placeholder: Document code for web server...
+    validations:
+      required: true
+  - type: input
+    id: specific
+    attributes:
+      label: Reasoning [REQUIRED]
+      description: Why are you trying to document it?
+      placeholder: Because it is essential for the project...
+    validations:
+      required: true
