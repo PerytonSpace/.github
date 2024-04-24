@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for taking the time to fill out this development task!
   - type: input
-    id: file
+    id: task
     attributes:
       label: Task [REQUIRED]
       description: What is the task to be completed?
@@ -16,7 +16,7 @@ body:
     validations:
       required: true
   - type: input
-    id: file
+    id: future
     attributes:
       label: Future [REQUIRED]
       description: What will be done after completion?
