@@ -5,8 +5,7 @@ labels: ["documentation"]
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this documentation request!
+      value: Thanks for taking the time to fill out this documentation request!
   - type: input
     id: file
     attributes:
